@@ -23,7 +23,7 @@
   grid-column: 2;
 }
 
-qualitelis-widget-validate-button {
+.qualitelis-widget-validate-button {
   background-color: var(--dark-green);
   color: #fff;
   letter-spacing: 1.15px;
