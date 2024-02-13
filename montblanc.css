@@ -1,3 +1,12 @@
-<style>
+.qualitelis-widget-first-email-input-container {
+  display: grid;
+  columns: 2;
+}
 
-</style>
+.qualitelis-widget-newsletter-input {
+  grid-column: 1;
+}
+
+.qualitelis-widget-validate-button-container {
+  grid-column: 2;
+}
