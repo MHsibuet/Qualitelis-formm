@@ -42,6 +42,6 @@
   column-gap: 0.5rem;
 }
 
-#app-body .app-part {
+.app-part {
   width: 100% !important;
 }
