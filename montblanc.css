@@ -6,6 +6,7 @@
 }
 
 .qualitelis-widget-newsletter-input {
+  font-family: Sozzani,sans-serif;
   grid-column: 1;
   width: 100%;
   height: 50px;
@@ -63,4 +64,40 @@ div#WidgetView {
     width: 100%;
     height: 50px;
   }
+}
+
+.qualitelis-widget-modal-input, .qualitelis-widget-modal-select {
+  font-family: Sozzani,sans-serif;
+  width: 100%;
+  height: 50px;
+  max-width: 100%;
+  background-color: #fff3e6;
+  color: rgba(37,18,9,.3);
+  border: 1px #000;
+  margin-bottom: 20px;
+  margin-top: 5px
+  padding: 0 0 0 20px;
+  font-size: 17px;
+  vertical-align: middle;
+  line-height: 1.42857;
+  display: block;
+}
+
+.qualitelis-widget-modal-form-submit-input {
+  height: 50px;
+  width: 100%;
+  font-family: Sozzani,sans-serif;
+  background-color: #193805;
+  color: #fff;
+  letter-spacing: 1.15px;
+  text-transform: uppercase;
+  padding: 0 20px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  transition: all .3s ease-in-out;
+}
+
+.qualitelis-widget-modal-label {
+  font-family: Sozzani,sans-serif;
 }
