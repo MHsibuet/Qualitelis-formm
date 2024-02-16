@@ -5,10 +5,10 @@
 
 .qualitelis-widget-newsletter-input {
   grid-column: 1;
-  width: 338px;
+  width: 100%;
   height: 50px;
   max-width: 100%;
-  background-color: var(--linen);
+  background-color: #fff3e6;
   color: rgba(37,18,9,.3);
   border: 1px #000;
   margin-bottom: 0;
@@ -21,10 +21,14 @@
 
 .qualitelis-widget-validate-button-container {
   grid-column: 2;
+  columns: 2;
+  column-gap: 1rem;
+  row-gap: 1rem;
 }
 
 .qualitelis-widget-validate-button {
-  background-color: var(--dark-green);
+  height: 100%;
+  background-color: #193805;
   color: #fff;
   letter-spacing: 1.15px;
   text-transform: uppercase;
@@ -33,7 +37,7 @@
   font-size: 15px;
   font-weight: 400;
   line-height: 1.5;
-  transition: all .3s ease-in-out
+  transition: all .3s ease-in-out;
 }
 
 .qualitelis-widget-privacy {
@@ -42,6 +46,10 @@
   column-gap: 0.5rem;
 }
 
-.app-part {
+#app-body .app-part {
   width: 100% !important;
+}
+
+div#WidgetView {
+  margin-top: -55px;
 }
