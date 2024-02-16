@@ -1,6 +1,8 @@
 .qualitelis-widget-first-email-input-container {
   display: grid;
   columns: 2;
+  column-gap: 1rem;
+  row-gap: 1rem;
 }
 
 .qualitelis-widget-newsletter-input {
@@ -21,9 +23,6 @@
 
 .qualitelis-widget-validate-button-container {
   grid-column: 2;
-  columns: 2;
-  column-gap: 1rem;
-  row-gap: 1rem;
 }
 
 .qualitelis-widget-validate-button {
